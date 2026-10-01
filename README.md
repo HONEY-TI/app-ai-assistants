@@ -4,7 +4,7 @@
 [![Angular](https://img.shields.io/badge/Angular-Frontend-red)](https://angular.io/)
 [![GitHub](https://img.shields.io/github/license/alexribeirofaria/AI-Assistants)](https://github.com/alexribeirofaria/AI-Assistants/blob/main/LICENSE)
 
-**Portuguese version:** [README](../README.md)
+**Portuguese version:** [README](./.github/README.md)
 
 Modular project for integrating multiple AI models (LLMs), allowing interaction through:
 
