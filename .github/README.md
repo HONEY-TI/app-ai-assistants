@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Angular](https://img.shields.io/badge/Angular-Frontend-red)](https://angular.io/)
 
-**Versão em inglês:** [README](README.md)
+**Versão em inglês:** [README](../README.md)
 
 Projeto modular para integração com múltiplos modelos de IA (LLMs), permitindo interação via:
 
