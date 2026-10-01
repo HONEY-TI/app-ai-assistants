@@ -1,84 +1,84 @@
-# <img src="https://images.icon-icons.com/2088/PNG/512/br_icon_128192.png" width="16"> AI-Assistants em Português
+# <img src="https://www.eccobandeiras.com.br/image/cache/catalog/antigas/reino-unido-1111x740.jpg" width="16"> AI-Assistants in English
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Angular](https://img.shields.io/badge/Angular-Frontend-red)](https://angular.io/)
 [![GitHub](https://img.shields.io/github/license/alexribeirofaria/AI-Assistants)](https://github.com/alexribeirofaria/AI-Assistants/blob/main/LICENSE)
 
-**Versão em inglês:** [README](.github/README.md)
+**Portuguese version:** [README](../README.md)
 
-Projeto modular para integração com múltiplos modelos de IA (LLMs), permitindo interação via:
+Modular project for integrating multiple AI models (LLMs), allowing interaction through:
 
 - CLI (Console)
-- API REST
-- Interface Web Angular
+- REST API
+- Angular Web Interface
 
-O projeto suporta atualmente:
+The project currently supports:
 
 - OpenAI
 - Google Gemini
 - Anthropic Claude
 - Groq
-- LangChain (abstração e orquestração)
+- LangChain (abstraction and orchestration)
 
-Construído utilizando:
+Built using:
 
 - Domain-Driven Design (DDD)
 - Clean Architecture
 - SOLID
-- Orientação a Objetos (O.O.)
-- Estratégias e fábricas extensíveis
+- Object-Oriented Programming (O.O.P.)
+- Extensible strategies and factories
 
 ---
 
-# 📌 Objetivo do Projeto
+# 📌 Project Goal
 
-O objetivo do **AI-Assistants** é fornecer uma camada unificada para comunicação com diferentes provedores de IA, permitindo:
+The goal of **AI-Assistants** is to provide a unified layer for communication with different AI providers, allowing:
 
-- Troca de modelos sem impacto no core
-- Arquitetura extensível
-- Separação clara entre frontend e backend
-- Execução local via terminal
-- Exposição de API REST
-- Interface moderna via Angular
-- Fallback inteligente entre provedores
-- Facilidade para adicionar novos modelos e features
+- Model switching without impacting the core
+- Extensible architecture
+- Clear separation between frontend and backend
+- Local terminal execution
+- REST API exposure
+- Modern Angular interface
+- Intelligent provider fallback
+- Easy addition of new models and features
 
 ---
 
-# 🏗 Arquitetura
+# 🏗 Architecture
 
-O projeto segue princípios de:
+The project follows principles of:
 
 - Domain-Driven Design (DDD)
 - Clean Architecture
 - SOLID
 - Clean Code
-- Tipagem forte (Python typing + TypeScript)
-- Separação de responsabilidades
-- Injeção de dependência
-- Estratégias e fábricas extensíveis
+- Strong typing (Python typing + TypeScript)
+- Separation of concerns
+- Dependency injection
+- Extensible strategies and factories
 
 ---
 
-# 📂 Estrutura Geral
+# 📂 General Structure
 
 ```text
 AI-Assistants/
 │
-├── python-app/              # Backend Python
+├── python-app/              # Python Backend
 │   ├── src/
-│   │   ├── web/             # Web API Rest
-│   │   ├── domain/          # Domínios
-│   │   ├── application/     # Estratégias e casos de uso
-│   │   ├── infrastructure/  # Clientes externos e factories
-│   │   ├── presentation/    # Interface e saída
-│   │   ├── repository/      # DI e repositórios
+│   │   ├── web/             # REST Web API
+│   │   ├── domain/          # Domains
+│   │   ├── application/     # Strategies and use cases
+│   │   ├── infrastructure/  # External clients and factories
+│   │   ├── presentation/    # Interface and output
+│   │   ├── repository/      # DI and repositories
 │   │   └── main.py
 │   │
 │   ├── requirements.txt
 │   └── .env.example
 │
-├── angular-app/             # Frontend Angular
+├── angular-app/             # Angular Frontend
 │   ├── src/
 │   ├── e2e/
 │   ├── tests/
@@ -89,28 +89,28 @@ AI-Assistants/
 
 ---
 
-# 🔄 Fluxo da Aplicação
+# 🔄 Application Flow
 
 ```text
-Usuário (Angular / CLI)
+User (Angular / CLI)
         ↓
 Gateway Core
         ↓
- Abstraction
+Abstraction
         ↓
-Backend Python (Fallback HTTP)
+Python Backend (HTTP Fallback)
         ↓
 LLMs Providers
 (OpenAI, Gemini, Claude, Groq)
         ↓
-Resposta retornada ao usuário
+Response returned to the user
 ```
 
 ---
 
-# 🚀 Funcionalidades
+# 🚀 Features
 
-## 🤖 Suporte Multi-Modelo
+## 🤖 Multi-Model Support
 
 * OpenAI
 * Claude (Anthropic)
@@ -120,52 +120,52 @@ Resposta retornada ao usuário
 
 ---
 
-## 💻 CLI Interativa
+## 💻 Interactive CLI
 
-Comandos disponíveis:
+Available commands:
 
 ```text
 /list-models
-/switch-model <nome>
+/switch-model <name>
 /clear
 /exit
 ```
 
 ---
 
-## 🌐 API REST
+## 🌐 REST API
 
-* Backend HTTP
-* Fallback entre provedores
-* Abstração dos modelos
-* Preparado para streaming
+* HTTP Backend
+* Provider fallback
+* Model abstraction
+* Streaming-ready
 
 ---
 
-## 🅰️ Frontend Angular
+## 🅰️ Angular Frontend
 
-* Interface moderna
-* Integração com múltiplos gateways
+* Modern interface
+* Multiple gateway integration
 * Prompt mode
 * SSR support
-* Estrutura preparada para Chat UI
+* Chat UI-ready structure
 
 ---
 
-## ⚡ Recursos Técnicos
+## ⚡ Technical Features
 
-* Cache com expiração
-* Execução assíncrona
-* Operações threaded
-* Estratégias extensíveis
-* Fácil adição de novos providers
-* Arquitetura desacoplada
+* Expiring cache
+* Asynchronous execution
+* Threaded operations
+* Extensible strategies
+* Easy provider integration
+* Decoupled architecture
 
 ---
 
-# 📦 Instalação
+# 📦 Installation
 
-## 1. Clone o repositório
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/alexribeirofaria/AI-Assistants.git
@@ -175,9 +175,9 @@ cd AI-Assistants
 
 ---
 
-# 🐍 Backend Python
+# 🐍 Python Backend
 
-Localizado em:
+Located at:
 
 ```text
 /python-app
@@ -185,7 +185,7 @@ Localizado em:
 
 ---
 
-## 2. Instale as dependências
+## 2. Install dependencies
 
 ```bash
 cd python-app
@@ -195,13 +195,13 @@ pip install -r requirements.txt
 
 ---
 
-## 3. Configure o ambiente
+## 3. Configure environment
 
 ```bash
 cp src/.env.example .env
 ```
 
-Edite o arquivo `.env`:
+Edit the `.env` file:
 
 ```env
 OPENAI_API_KEY=
@@ -212,7 +212,7 @@ GROQ_API_KEY=
 
 ---
 
-## ▶ Modos de Execução
+## ▶ Execution Modes
 
 ### Console Mode (CLI)
 
@@ -230,9 +230,9 @@ python src/main.py --app web
 
 ---
 
-# 🅰️ Frontend Angular
+# 🅰️ Angular Frontend
 
-Localizado em:
+Located at:
 
 ```text
 /angular-app
@@ -240,7 +240,7 @@ Localizado em:
 
 ---
 
-## ▶ Instalação
+## ▶ Installation
 
 ```bash
 cd angular-app
@@ -250,7 +250,7 @@ npm install
 
 ---
 
-## ▶ Execução
+## ▶ Run
 
 ```bash
 npm run start
@@ -266,7 +266,7 @@ npm run prompt
 
 ---
 
-## 🧪 Testes
+## 🧪 Tests
 
 ### Coverage
 
@@ -292,18 +292,18 @@ npm run ssr
 
 ---
 
-# 💻 Exemplo de Uso CLI
+# 💻 CLI Usage Example
 
 ```bash
 $ python src/main.py --app console
 
-> Olá, IA!
+> Hello, AI!
 
-[Resposta da IA streamada aqui...]
+[AI response streamed here...]
 
 > /switch-model claude
 
-Trocado para Claude.
+Switched to Claude.
 
 > /list-models
 
@@ -317,123 +317,123 @@ groq
 
 ---
 
-# 🧩 Responsabilidades do Backend
+# 🧩 Backend Responsibilities
 
-* Gateway de acesso aos LLMs
-* Orquestração de chamadas
-* Fallback entre provedores
-* Exposição de API REST
-* Streaming de respostas
-* Execução via console CLI
-* Gerenciamento de cache
-* Estratégias de comunicação
-
----
-
-# 🔄 Integração entre Sistemas
-
-O frontend Angular pode consumir o backend utilizando:
-
-## 1. Gateway Core (Principal)
-
-Comunicação direta com abstrações da aplicação.
+* LLM access gateway
+* Request orchestration
+* Provider fallback
+* REST API exposure
+* Response streaming
+* CLI execution
+* Cache management
+* Communication strategies
 
 ---
 
-## 2. API Python (Fallback HTTP)
+# 🔄 System Integration
 
-Fallback resiliente para múltiplos provedores.
+The Angular frontend can consume the backend using:
+
+## 1. Gateway Core (Primary)
+
+Direct communication with application abstractions.
 
 ---
 
-# 🧠 Conceito Principal de Fallback
+## 2. Python API (HTTP Fallback)
+
+Resilient fallback for multiple providers.
+
+---
+
+# 🧠 Main Fallback Concept
 
 ```text
-1. Core Gateway (principal)
+1. Core Gateway (primary)
 2. LangChain abstraction
-3. API Python fallback
+3. Python API fallback
 ```
 
 ---
 
-# 🧪 Qualidade de Código
+# 🧪 Code Quality
 
-O projeto utiliza:
+The project uses:
 
 * Clean Code
 * SOLID
 * DDD
 * Clean Architecture
-* Tipagem forte
-* Arquitetura em camadas
-* Separação de responsabilidades
-* Injeção de dependência
+* Strong typing
+* Layered architecture
+* Separation of concerns
+* Dependency injection
 
 ---
 
-# 🚧 Status do Projeto
+# 🚧 Project Status
 
-Atualmente em desenvolvimento contínuo:
+Currently under active development:
 
-* Streaming token-by-token
-* Memória contextual
-* Sistema de agentes
-* Plugins de LLM
-* Observabilidade e tracing
-* Testes avançados de UI
-* Testes de carga
-* UI estilo ChatGPT
+* Token-by-token streaming
+* Contextual memory
+* Agent system
+* LLM plugins
+* Observability and tracing
+* Advanced UI testing
+* Load testing
+* ChatGPT-style UI
 
 ---
 
-# 🚀 Futuras Melhorias
+# 🚀 Future Improvements
 
 * Multi-agent orchestration
-* Memória por usuário
+* Per-user memory
 * Function calling
-* Plugins dinâmicos
-* Persistência contextual
-* Telemetria
-* Dashboard administrativo
-* Monitoramento de tokens
-* Balanceamento entre providers
+* Dynamic plugins
+* Context persistence
+* Telemetry
+* Administrative dashboard
+* Token monitoring
+* Provider balancing
 
 ---
 
-# ❓ Por que usar?
+# ❓ Why Use It?
 
-* Utilize múltiplos modelos de IA em um único sistema
-* Troque de provider sem alterar o core
-* Arquitetura preparada para expansão
-* Backend desacoplado do frontend
-* Fácil integração com novos LLMs
-* Estrutura escalável para aplicações modernas
-
----
-
-# 👨‍💻 Autor
-
-Projeto criado para estudo avançado de:
-
-* Arquitetura de software
-* Sistemas distribuídos
-* Integração com LLMs
-* Backend escalável em Python
-* Frontend moderno com Angular
-* Padrões arquiteturais avançados
+* Use multiple AI models in a single system
+* Switch providers without changing the core
+* Expansion-ready architecture
+* Decoupled backend/frontend
+* Easy integration with new LLMs
+* Scalable structure for modern applications
 
 ---
 
-# 🆘 Suporte
+# 👨‍💻 Author
 
-* Abra uma issue:
+Project created for advanced study of:
+
+* Software architecture
+* Distributed systems
+* LLM integration
+* Scalable Python backend
+* Modern Angular frontend
+* Advanced architectural patterns
+
+---
+
+# 🆘 Support
+
+* Open an issue:
   https://github.com/alexribeirofaria/AI-Assistants/issues
 
-* Discussões:
+* Discussions:
   https://github.com/alexribeirofaria/AI-Assistants/discussions
 
 ---
 
-# 📄 Licença
+## ⚖️ License
 
-MIT — veja [LICENSE](LICENSE)
+See the [`LICENSE`](../LICENSE). Before publishing or redistributing, review the applicable terms and ensure they are consistent with the project's legal intent.
