@@ -436,4 +436,4 @@ Project created for advanced study of:
 
 ## ⚖️ License
 
-See the [`LICENSE`](../LICENSE). Before publishing or redistributing, review the applicable terms and ensure they are consistent with the project's legal intent.
+See the [`LICENSE`](LICENSE). Before publishing or redistributing, review the applicable terms and ensure they are consistent with the project's legal intent.
