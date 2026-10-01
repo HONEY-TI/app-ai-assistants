@@ -2,9 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Angular](https://img.shields.io/badge/Angular-Frontend-red)](https://angular.io/)
-[![GitHub](https://img.shields.io/github/license/alexribeirofaria/AI-Assistants)](https://github.com/alexribeirofaria/AI-Assistants/blob/main/LICENSE)
 
-**Versão em inglês:** [README](../README.md)
+**Versão em inglês:** [README](.github/README.md)
 
 Projeto modular para integração com múltiplos modelos de IA (LLMs), permitindo interação via:
 
@@ -436,4 +435,4 @@ Projeto criado para estudo avançado de:
 
 ## ⚖️ Licença
 
-Consulte o arquivo de [`Licença`](../LICENSE). Antes de publicar ou redistribuir, revise os termos aplicaveis e garanta que eles estejam consistentes com a intencao juridica do projeto.
+Consulte o arquivo de [`Licença`](LICENSE). Antes de publicar ou redistribuir, revise os termos aplicaveis e garanta que eles estejam consistentes com a intencao juridica do projeto.
